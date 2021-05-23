@@ -10,6 +10,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " features
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+	" Replaces the keybindings for s and S with an improvement movement
+	" command that works a bit like f and F but jumps to a matching two
+	" character pair instead of a single character. 
+	Plug 'justinmk/vim-sneak'
+
     " Colorscheme
     Plug 'arcticicestudio/nord-vim'
 
