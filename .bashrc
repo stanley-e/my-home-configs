@@ -20,6 +20,9 @@ export PATH="$HOME/gems/bin:$PATH"
 # export SYSTEMD_PAGER=
 
 # User specific aliases and functions
+
+export PATH=$HOME/Scripts:$PATH
+
 alias vim="nvim"
 
 alias sl='ls -Alh'
